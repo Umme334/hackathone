@@ -1,0 +1,88 @@
+body {
+    font-family: 'Wendy' , sans-serif;
+    background-color:beige;
+    margin:auto;
+    padding: 180px;
+
+}
+
+
+resume-container {
+    display:flexbox;
+    background-color: blanchedalmond;
+    width: 70%;
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px;
+}
+left-section{
+    background-color: #ff927fbb;
+    color: aqua;
+    padding: 10px;
+    width: 15px;
+    text-align: center;
+    border-right: 10px salmon;
+}
+
+profile-picture{
+    width: 170px;
+    height: 170px;
+    margin: 12PX;
+    border: 10px;
+    border-radius: 30%;
+    
+}
+
+h1{
+    font-size: 30px;
+    margin: 12px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    margin: 10px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    padding: 3%;
+    margin: auto;
+    color: firebrick;
+    border-radius: 10px;
+    box-shadow: coral;
+    text-align: center;
+}
+
+ui{
+    list-style: fill round;
+    padding: 10px ;
+    margin: auto;
+    
+}
+ ui li{
+    margin: 3px;
+ }
+
+
+ right-section{
+    padding: 24px;
+    width: 70%;
+    
+ }
+
+ button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    box-shadow: brown;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 24px;
+    text-align: center;
+ }
+ button:hover{
+    background-color: mediumorchid;
+ }
