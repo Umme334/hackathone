@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 24px;
+    padding: 0%;
+    background-color: darkslategray;
+}
+from{
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 6px 8px;
+    padding: 24px;
+    max-width: 700px;
+}
+
+h1{
+    text-align: center;
+    color:black
+}
+
+fieldset{
+    border: 3px salmon;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: blanchedalmond;
+}
+
+legend{
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+
+}
+
+label{
+    display: flex;
+    margin-top: auto;
+    color: darkred;
+}
+
+input,textarea{
+    margin-top: 6px;
+    padding: 8px;
+    width: auto ;
+    border: 2px salmon;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    border: beige;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px cornsilk;
+    margin-top: auto;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 12px;
+    cursor: auto;
+
+}
+
+button:hover{
+    color: aqua;
+}
+resume-display{
+    max-width: 650px;
+    margin: auto;
+    padding: 24px;
+    border: 3px rosybrown;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 3px 6px bisque;
+    outline: auto;
+
+}
+resume-displayh2{
+    color: black;
+}
+
+resume-displayh3{
+    color: black;
+}
